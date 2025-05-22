@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="verbose">Analysis started...</message>
+ <nop/>
+ <message severity="info">Collection started. To stop the collection, either press CTRL-C or enter from another console window: inspxe-cl -r C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC15_B -command stop.</message>
+ <nop/>
+ <message severity="verbose">Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC15_B\TC15_B.inspxe </message>
+ <nop/>
+ <message severity="verbose">Analysis started for c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe (pid = 43748) </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe, address range [0x7ff6ae420000-0x7ff6ae4e2fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe5e3a0000-0x7ffe5e772fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe5f250000-0x7ffe5f313fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe610f0000-0x7ffe61306fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ffe1f110000-0x7ffe1f13ffff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ffe37b70000-0x7ffe37b7efff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ffdadcd0000-0x7ffdaded3fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ffde90c0000-0x7ffde91a0fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\program files\avecto\privilege guard client\pghook.dll, address range [0x7ffe5d970000-0x7ffe5dabafff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\advapi32.dll, address range [0x7ffe5eff0000-0x7ffe5f0a0fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe5f320000-0x7ffe5f3c6fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\sechost.dll, address range [0x7ffe5f0e0000-0x7ffe5f187fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\bcrypt.dll, address range [0x7ffe5e820000-0x7ffe5e847fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe5eed0000-0x7ffe5efe3fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffe5cfc0000-0x7ffe5cfd7fff] </message>
+ <nop/>
+ <message severity="verbose">Process c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe exited with code 0. Leak analysis starting. Please wait... </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\Users\z0041eeu\Desktop\Testumgebung\build\Debug\BachelorThesisDemo.exe </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\System32\KERNELBASE.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\System32\KERNEL32.DLL </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\SYSTEM32\ntdll.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140_1D.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\SYSTEM32\ucrtbased.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\SYSTEM32\MSVCP140D.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\Program Files\Avecto\Privilege Guard Client\PGHook.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\System32\ADVAPI32.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\System32\msvcrt.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\System32\sechost.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\System32\bcrypt.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\System32\RPCRT4.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\SYSTEM32\kernel.appcore.dll </message>
+ <nop/>
+ <message severity="verbose">Completed analysis for c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe </message>
+ <nop/>
+ <message severity="verbose">Application exit code: 0 </message>
+ <nop/>
+ <message severity="verbose">Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC15_B\TC15_B.inspxe </message>
+ <nop/>
+ <message severity="verbose">Analysis completed</message>
+ <nop/>
+ <message severity="info">  </message>
+ <nop/>
+ <message severity="info">39 new problem(s) found </message>
+ <nop/>
+ <message severity="info">    2 Invalid memory access problem(s) detected </message>
+ <nop/>
+ <message severity="info">    1 Kernel resource leak problem(s) detected </message>
+ <nop/>
+ <message severity="info">    1 Memory leak problem(s) detected </message>
+ <nop/>
+ <message severity="info">    32 Uninitialized memory access problem(s) detected </message>
+ <nop/>
+ <message severity="info">    3 Uninitialized partial memory access problem(s) detected </message>
+ <nop/>
+</feedback>

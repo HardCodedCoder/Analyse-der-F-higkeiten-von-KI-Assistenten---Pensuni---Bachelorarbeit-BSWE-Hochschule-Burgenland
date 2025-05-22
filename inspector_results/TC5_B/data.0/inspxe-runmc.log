@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2025/05/21 18:07:21</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC5_B\TC5_B.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe</arg>
+  <arg>35168</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:22 2025</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe</arg>
+  <arg>0x7ff6ae420000</arg>
+  <arg>0x7ff6ae4e2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:23 2025</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ffe5e3a0000</arg>
+  <arg>0x7ffe5e772fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:32 2025</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ffe5f250000</arg>
+  <arg>0x7ffe5f313fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:38 2025</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ffe610f0000</arg>
+  <arg>0x7ffe61306fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:39 2025</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>0x7ffe36a50000</arg>
+  <arg>0x7ffe36a7ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:40 2025</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>0x7ffdef8d0000</arg>
+  <arg>0x7ffdef9b0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:40 2025</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>0x7ffdad870000</arg>
+  <arg>0x7ffdada73fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:41 2025</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\vcruntime140_1d.dll</arg>
+  <arg>0x7ffe59ed0000</arg>
+  <arg>0x7ffe59edefff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:41 2025</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files\avecto\privilege guard client\pghook.dll</arg>
+  <arg>0x7ffe5d970000</arg>
+  <arg>0x7ffe5dabafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:43 2025</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\advapi32.dll</arg>
+  <arg>0x7ffe5eff0000</arg>
+  <arg>0x7ffe5f0a0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:47 2025</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ffe5f320000</arg>
+  <arg>0x7ffe5f3c6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:48 2025</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\sechost.dll</arg>
+  <arg>0x7ffe5f0e0000</arg>
+  <arg>0x7ffe5f187fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:48 2025</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\bcrypt.dll</arg>
+  <arg>0x7ffe5e820000</arg>
+  <arg>0x7ffe5e847fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:48 2025</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ffe5eed0000</arg>
+  <arg>0x7ffe5efe3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:48 2025</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ffe5cfc0000</arg>
+  <arg>0x7ffe5cfd7fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:54 2025</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <arg>0x7ffe60b30000</arg>
+  <arg>0x7ffe60ce0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:54 2025</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <arg>0x7ffe5ed60000</arg>
+  <arg>0x7ffe5ed85fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:55 2025</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <arg>0x7ffe5f0b0000</arg>
+  <arg>0x7ffe5f0d8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:57 2025</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <arg>0x7ffe5e280000</arg>
+  <arg>0x7ffe5e39afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:57 2025</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\msvcp_win.dll</arg>
+  <arg>0x7ffe5e780000</arg>
+  <arg>0x7ffe5e819fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:57 2025</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>0x7ffe5ea50000</arg>
+  <arg>0x7ffe5eb60fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:58 2025</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <arg>0x7ffe5f210000</arg>
+  <arg>0x7ffe5f240fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:59 2025</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\textshaping.dll</arg>
+  <arg>0x7ffe3f5d0000</arg>
+  <arg>0x7ffe3f67ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:07:59 2025</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\uxtheme.dll</arg>
+  <arg>0x7ffe5a310000</arg>
+  <arg>0x7ffe5a3c2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:01 2025</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\combase.dll</arg>
+  <arg>0x7ffe60230000</arg>
+  <arg>0x7ffe605c1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:01 2025</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\msctf.dll</arg>
+  <arg>0x7ffe609d0000</arg>
+  <arg>0x7ffe60b2ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:02 2025</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\bcryptprimitives.dll</arg>
+  <arg>0x7ffe5ece0000</arg>
+  <arg>0x7ffe5ed5afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:04 2025</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\textinputframework.dll</arg>
+  <arg>0x7ffe3fa40000</arg>
+  <arg>0x7ffe3fb83fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:06 2025</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\oleaut32.dll</arg>
+  <arg>0x7ffe60fd0000</arg>
+  <arg>0x7ffe610a6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:07 2025</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\oleacc.dll</arg>
+  <arg>0x7ffe4a6a0000</arg>
+  <arg>0x7ffe4a708fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:08 2025</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\clbcatq.dll</arg>
+  <arg>0x7ffe60920000</arg>
+  <arg>0x7ffe609cffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:09 2025</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\applicationtargetedfeaturedatabase.dll</arg>
+  <arg>0x7ffe379a0000</arg>
+  <arg>0x7ffe379eafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:09 2025</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\twinapi.appcore.dll</arg>
+  <arg>0x7ffe57650000</arg>
+  <arg>0x7ffe578f5fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:09 2025</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\wintypes.dll</arg>
+  <arg>0x7ffe5e850000</arg>
+  <arg>0x7ffe5e98efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:10 2025</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\coremessaging.dll</arg>
+  <arg>0x7ffe55170000</arg>
+  <arg>0x7ffe552a4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:19 2025</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\coreuicomponents.dll</arg>
+  <arg>0x7ffe50a60000</arg>
+  <arg>0x7ffe50dcbfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:20 2025</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\cryptbase.dll</arg>
+  <arg>0x7ffe5d7e0000</arg>
+  <arg>0x7ffe5d7ebfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:21 2025</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ole32.dll</arg>
+  <arg>0x7ffe60e20000</arg>
+  <arg>0x7ffe60fc0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:25 2025</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\system32\ApplicationTargetedFeatureDatabase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:26 2025</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\twinapi.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 21 18:08:26 2025</timestamp>
+</msg>
+<msg id="45" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>3</arg>
+</msg>
+<msg id="46" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC5_B\TC5_B.inspxe</arg>
+</msg>
+<msg id="47" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="48" tool="runtool">
+  <type>log-end</type>
+  <arg>2025/05/21 18:08:30</arg>
+</msg>
+
+</log>
+

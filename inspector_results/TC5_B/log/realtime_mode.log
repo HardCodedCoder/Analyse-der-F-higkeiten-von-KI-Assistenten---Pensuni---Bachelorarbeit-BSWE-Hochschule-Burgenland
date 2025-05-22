@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="verbose">Analysis started...</message>
+ <nop/>
+ <message severity="info">Collection started. To stop the collection, either press CTRL-C or enter from another console window: inspxe-cl -r C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC5_B -command stop.</message>
+ <nop/>
+ <message severity="verbose">Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC5_B\TC5_B.inspxe </message>
+ <nop/>
+ <message severity="verbose">Analysis started for c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe (pid = 35168) </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe, address range [0x7ff6ae420000-0x7ff6ae4e2fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe5e3a0000-0x7ffe5e772fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe5f250000-0x7ffe5f313fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe610f0000-0x7ffe61306fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ffe36a50000-0x7ffe36a7ffff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ffdef8d0000-0x7ffdef9b0fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ffdad870000-0x7ffdada73fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ffe59ed0000-0x7ffe59edefff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\program files\avecto\privilege guard client\pghook.dll, address range [0x7ffe5d970000-0x7ffe5dabafff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\advapi32.dll, address range [0x7ffe5eff0000-0x7ffe5f0a0fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe5f320000-0x7ffe5f3c6fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\sechost.dll, address range [0x7ffe5f0e0000-0x7ffe5f187fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\bcrypt.dll, address range [0x7ffe5e820000-0x7ffe5e847fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe5eed0000-0x7ffe5efe3fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffe5cfc0000-0x7ffe5cfd7fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\user32.dll, address range [0x7ffe60b30000-0x7ffe60ce0fff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\win32u.dll, address range [0x7ffe5ed60000-0x7ffe5ed85fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\gdi32.dll, address range [0x7ffe5f0b0000-0x7ffe5f0d8fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\gdi32full.dll, address range [0x7ffe5e280000-0x7ffe5e39afff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\msvcp_win.dll, address range [0x7ffe5e780000-0x7ffe5e819fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\ucrtbase.dll, address range [0x7ffe5ea50000-0x7ffe5eb60fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\imm32.dll, address range [0x7ffe5f210000-0x7ffe5f240fff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\textshaping.dll, address range [0x7ffe3f5d0000-0x7ffe3f67ffff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\uxtheme.dll, address range [0x7ffe5a310000-0x7ffe5a3c2fff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\combase.dll, address range [0x7ffe60230000-0x7ffe605c1fff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\msctf.dll, address range [0x7ffe609d0000-0x7ffe60b2ffff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\bcryptprimitives.dll, address range [0x7ffe5ece0000-0x7ffe5ed5afff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\textinputframework.dll, address range [0x7ffe3fa40000-0x7ffe3fb83fff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\oleaut32.dll, address range [0x7ffe60fd0000-0x7ffe610a6fff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\oleacc.dll, address range [0x7ffe4a6a0000-0x7ffe4a708fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\clbcatq.dll, address range [0x7ffe60920000-0x7ffe609cffff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\applicationtargetedfeaturedatabase.dll, address range [0x7ffe379a0000-0x7ffe379eafff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\twinapi.appcore.dll, address range [0x7ffe57650000-0x7ffe578f5fff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\wintypes.dll, address range [0x7ffe5e850000-0x7ffe5e98efff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\coremessaging.dll, address range [0x7ffe55170000-0x7ffe552a4fff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\coreuicomponents.dll, address range [0x7ffe50a60000-0x7ffe50dcbfff], minimal analysis </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\cryptbase.dll, address range [0x7ffe5d7e0000-0x7ffe5d7ebfff] </message>
+ <nop/>
+ <message severity="verbose">Loaded module: c:\windows\system32\ole32.dll, address range [0x7ffe60e20000-0x7ffe60fc0fff] </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\WINDOWS\system32\ApplicationTargetedFeatureDatabase.dll </message>
+ <nop/>
+ <message severity="verbose">Unloaded module: C:\Windows\System32\twinapi.appcore.dll </message>
+ <nop/>
+ <message severity="verbose">Application exit code: 3 </message>
+ <nop/>
+ <message severity="verbose">Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC5_B\TC5_B.inspxe </message>
+ <nop/>
+ <message severity="verbose">Analysis completed</message>
+ <nop/>
+ <message severity="warning">Encountered an issue while loading result [C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC5_B]. Run terminated abnormally. Some data may be lost. </message>
+ <nop/>
+ <message severity="info">  </message>
+ <nop/>
+ <message severity="info">49 new problem(s) found </message>
+ <nop/>
+ <message severity="info">    3 Invalid memory access problem(s) detected </message>
+ <nop/>
+ <message severity="info">    2 Invalid partial memory access problem(s) detected </message>
+ <nop/>
+ <message severity="info">    38 Uninitialized memory access problem(s) detected </message>
+ <nop/>
+ <message severity="info">    6 Uninitialized partial memory access problem(s) detected </message>
+ <nop/>
+</feedback>

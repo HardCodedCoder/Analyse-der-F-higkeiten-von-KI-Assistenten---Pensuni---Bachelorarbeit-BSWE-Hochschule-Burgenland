@@ -1,0 +1,37 @@
+
+=== Start: [2025/05/21 17:51:31] === 
+Analysis started...
+Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC3_B\TC3_B.inspxe 
+Analysis started for c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe (pid = 39548) 
+Loaded module: c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe, address range [0x7ff6ae420000-0x7ff6ae4e2fff] 
+Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe5e3a0000-0x7ffe5e772fff] 
+Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe5f250000-0x7ffe5f313fff] 
+Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe610f0000-0x7ffe61306fff] 
+Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ffe59be0000-0x7ffe59beefff] 
+Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ffdbc510000-0x7ffdbc53ffff] 
+Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ffd98e20000-0x7ffd98f00fff] 
+Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ffd96870000-0x7ffd96a73fff] 
+Loaded module: c:\program files\avecto\privilege guard client\pghook.dll, address range [0x7ffe5d970000-0x7ffe5dabafff] 
+Loaded module: c:\windows\system32\advapi32.dll, address range [0x7ffe5eff0000-0x7ffe5f0a0fff] 
+Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe5f320000-0x7ffe5f3c6fff] 
+Loaded module: c:\windows\system32\sechost.dll, address range [0x7ffe5f0e0000-0x7ffe5f187fff] 
+Loaded module: c:\windows\system32\bcrypt.dll, address range [0x7ffe5e820000-0x7ffe5e847fff] 
+Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe5eed0000-0x7ffe5efe3fff] 
+Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffe5cfc0000-0x7ffe5cfd7fff] 
+Loaded module: c:\windows\system32\user32.dll, address range [0x7ffe60b30000-0x7ffe60ce0fff], minimal analysis 
+Loaded module: c:\windows\system32\win32u.dll, address range [0x7ffe5ed60000-0x7ffe5ed85fff] 
+Loaded module: c:\windows\system32\gdi32.dll, address range [0x7ffe5f0b0000-0x7ffe5f0d8fff] 
+Loaded module: c:\windows\system32\gdi32full.dll, address range [0x7ffe5e280000-0x7ffe5e39afff], minimal analysis 
+Loaded module: c:\windows\system32\msvcp_win.dll, address range [0x7ffe5e780000-0x7ffe5e819fff] 
+Loaded module: c:\windows\system32\ucrtbase.dll, address range [0x7ffe5ea50000-0x7ffe5eb60fff] 
+Loaded module: c:\windows\system32\imm32.dll, address range [0x7ffe5f210000-0x7ffe5f240fff], minimal analysis 
+Loaded module: c:\windows\system32\textshaping.dll, address range [0x7ffe3f5d0000-0x7ffe3f67ffff] 
+Loaded module: c:\windows\system32\uxtheme.dll, address range [0x7ffe5a310000-0x7ffe5a3c2fff], minimal analysis 
+Loaded module: c:\windows\system32\combase.dll, address range [0x7ffe60230000-0x7ffe605c1fff], minimal analysis 
+Loaded module: c:\windows\system32\msctf.dll, address range [0x7ffe609d0000-0x7ffe60b2ffff], minimal analysis 
+Loaded module: c:\windows\system32\bcryptprimitives.dll, address range [0x7ffe5ece0000-0x7ffe5ed5afff], minimal analysis 
+Application exit code: 1 
+Error: Analysis was terminated by Ctrl + C. 
+Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC3_B\TC3_B.inspxe 
+Analysis completed
+=== End: [2025/05/21 18:06:30] === 

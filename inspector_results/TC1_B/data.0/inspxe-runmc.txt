@@ -1,0 +1,24 @@
+
+=== Start: [2025/05/21 17:50:04] === 
+Analysis started...
+Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC1_B\TC1_B.inspxe 
+Analysis started for c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe (pid = 27808) 
+Loaded module: c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe, address range [0x7ff6ae420000-0x7ff6ae4e2fff] 
+Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe5e3a0000-0x7ffe5e772fff] 
+Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe5f250000-0x7ffe5f313fff] 
+Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe610f0000-0x7ffe61306fff] 
+Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ffd98ee0000-0x7ffd98fc0fff] 
+Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ffe59c80000-0x7ffe59c8efff] 
+Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ffdb0840000-0x7ffdb086ffff] 
+Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ffd98cd0000-0x7ffd98ed3fff] 
+Loaded module: c:\program files\avecto\privilege guard client\pghook.dll, address range [0x7ffe5d970000-0x7ffe5dabafff] 
+Loaded module: c:\windows\system32\advapi32.dll, address range [0x7ffe5eff0000-0x7ffe5f0a0fff] 
+Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe5f320000-0x7ffe5f3c6fff] 
+Loaded module: c:\windows\system32\sechost.dll, address range [0x7ffe5f0e0000-0x7ffe5f187fff] 
+Loaded module: c:\windows\system32\bcrypt.dll, address range [0x7ffe5e820000-0x7ffe5e847fff] 
+Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe5eed0000-0x7ffe5efe3fff] 
+Warning: Detected fatal exception in the application. See result for details. 
+Application exit code: -1073741819 
+Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC1_B\TC1_B.inspxe 
+Analysis completed
+=== End: [2025/05/21 17:50:42] === 

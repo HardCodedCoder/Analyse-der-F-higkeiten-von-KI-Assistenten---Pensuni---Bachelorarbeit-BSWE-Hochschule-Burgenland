@@ -1,0 +1,14 @@
+
+=== Start: [2025/05/21 17:51:30] === 
+Warning: Encountered an issue while loading result [C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC3_B]. Run terminated abnormally. Some data may be lost. 
+  
+54 new problem(s) found 
+    19 Invalid memory access problem(s) detected 
+    1 Invalid partial memory access problem(s) detected 
+    1 Missing allocation problem(s) detected 
+    30 Uninitialized memory access problem(s) detected 
+    3 Uninitialized partial memory access problem(s) detected 
+=== End: [2025/05/21 18:06:32] === 
+
+=== Start: [2025/05/21 22:34:41] === 
+=== End: [2025/05/21 22:34:42] === 

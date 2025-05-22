@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2025/05/21 18:08:32</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>status</type>
+  <arg> </arg>
+</msg>
+<msg id="3" tool="runtool">
+  <type>problems-total</type>
+  <arg>41</arg>
+</msg>
+<msg id="4" tool="runtool">
+  <type>problems-type</type>
+  <arg>    6 Invalid memory access</arg>
+</msg>
+<msg id="5" tool="runtool">
+  <type>problems-type</type>
+  <arg>    1 Invalid partial memory access</arg>
+</msg>
+<msg id="6" tool="runtool">
+  <type>problems-type</type>
+  <arg>    1 Kernel resource leak</arg>
+</msg>
+<msg id="7" tool="runtool">
+  <type>problems-type</type>
+  <arg>    31 Uninitialized memory access</arg>
+</msg>
+<msg id="8" tool="runtool">
+  <type>problems-type</type>
+  <arg>    2 Uninitialized partial memory access</arg>
+</msg>
+<msg id="9" tool="runtool">
+  <type>log-end</type>
+  <arg>2025/05/21 18:09:11</arg>
+</msg>
+
+</log>
+
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2025/05/21 22:56:02</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>log-end</type>
+  <arg>2025/05/21 22:56:02</arg>
+</msg>
+
+</log>
+

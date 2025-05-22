@@ -1,0 +1,175 @@
+P1: Critical: Unhandled application exception: New
+ P1.242: Critical: Unhandled application exception: New
+  ntdll.dll!0xa9af7: Critical X319: Exception: Function RtlCopyMemory: Module c:\windows\system32\ntdll.dll
+
+P2: Error: Invalid memory access: New
+ P2.241: Error: Invalid memory access: New
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(690): Error X318: Read: Function std::operator<<<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > &,char const *): Module c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe
+
+P3: Error: Invalid memory access: New
+ P3.166: Error: Invalid memory access: New
+  ucrtbased.dll!0xf805c: Error X173: Read: Function strnicoll_l: Module c:\windows\system32\ucrtbased.dll
+  ucrtbased.dll!0x8842b: Error X174: Allocation site: Function _pwctype_func: Module c:\windows\system32\ucrtbased.dll
+ P3.173: Error: Invalid memory access: New
+  ucrtbased.dll!0xf805c: Error X187: Read: Function strnicoll_l: Module c:\windows\system32\ucrtbased.dll
+  ucrtbased.dll!0x8feec: Error X188: Allocation site: Function setlocale: Module c:\windows\system32\ucrtbased.dll
+ P3.182: Error: Invalid memory access: New
+  ucrtbased.dll!0xf805c: Error X205: Read: Function strnicoll_l: Module c:\windows\system32\ucrtbased.dll
+ P3.186: Error: Invalid memory access: New
+  ucrtbased.dll!0xf805c: Error X211: Read: Function strnicoll_l: Module c:\windows\system32\ucrtbased.dll
+  ucrtbased.dll!0x14b046: Error X212: Allocation site: Function W_Getmonths: Module c:\windows\system32\ucrtbased.dll
+ P3.187: Error: Invalid memory access: New
+  ucrtbased.dll!0xf805c: Error X213: Read: Function strnicoll_l: Module c:\windows\system32\ucrtbased.dll
+  msvcp140d.dll!0x947e: Error X214: Allocation site: Function std::_Yarn<wchar_t>::operator=(wchar_t const * __ptr64): Module c:\windows\system32\msvcp140d.dll
+
+P4: Error: Invalid memory access: New
+ P4.204: Error: Invalid memory access: New
+  ucrtbased.dll!0xf884c: Error X247: Read: Function strnicoll_l: Module c:\windows\system32\ucrtbased.dll
+  ucrtbased.dll!0x8feec: Error X248: Allocation site: Function setlocale: Module c:\windows\system32\ucrtbased.dll
+
+P5: Error: Invalid partial memory access: New
+ P5.164: Error: Invalid partial memory access: New
+  ucrtbased.dll!0xf805c: Error X170: Read: Function strnicoll_l: Module c:\windows\system32\ucrtbased.dll
+  ucrtbased.dll!0x8f048: Error X171: Allocation site: Function localeconv: Module c:\windows\system32\ucrtbased.dll
+
+P6: Error: Uninitialized memory access: New
+ P6.240: Error: Uninitialized memory access: New
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\memory(3370): Error X317: Read: Function std::unique_ptr<class std::_Facet_base,struct std::default_delete<class std::_Facet_base> >::unique_ptr<class std::_Facet_base,struct std::default_delete<class std::_Facet_base> ><struct std::default_delete<class std::_Facet_base>,0>(class std::_Facet_base *): Module c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe
+
+P7: Error: Uninitialized memory access: New
+ P7.40: Error: Uninitialized memory access: New
+  pghook.dll!0x28388: Error X40: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P8: Error: Uninitialized memory access: New
+ P8.89: Error: Uninitialized memory access: New
+  pghook.dll!0x36872: Error X95: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P9: Error: Uninitialized memory access: New
+ P9.11: Error: Uninitialized memory access: New
+  pghook.dll!0x36a8: Error X11: Read: Function [Unknown]: Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P10: Error: Uninitialized memory access: New
+ P10.14: Error: Uninitialized memory access: New
+  pghook.dll!0x396f2: Error X14: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P11: Error: Uninitialized memory access: New
+ P11.76: Error: Uninitialized memory access: New
+  pghook.dll!0x39a05: Error X80: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P12: Error: Uninitialized memory access: New
+ P12.79: Error: Uninitialized memory access: New
+  pghook.dll!0x3a4d6: Error X83: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P13: Error: Uninitialized memory access: New
+ P13.32: Error: Uninitialized memory access: New
+  pghook.dll!0x3a7d: Error X32: Read: Function [Unknown]: Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P14: Error: Uninitialized memory access: New
+ P14.38: Error: Uninitialized memory access: New
+  pghook.dll!0x3a8e7: Error X38: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P15: Error: Uninitialized memory access: New
+ P15.13: Error: Uninitialized memory access: New
+  pghook.dll!0x41082: Error X13: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P16: Error: Uninitialized memory access: New
+ P16.7: Error: Uninitialized memory access: New
+  pghook.dll!0x41bd2: Error X7: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P17: Error: Uninitialized memory access: New
+ P17.8: Error: Uninitialized memory access: New
+  pghook.dll!0x42525: Error X8: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P18: Error: Uninitialized memory access: New
+ P18.9: Error: Uninitialized memory access: New
+  pghook.dll!0x46b12: Error X9: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P19: Error: Uninitialized memory access: New
+ P19.39: Error: Uninitialized memory access: New
+  pghook.dll!0x471d: Error X39: Read: Function [Unknown]: Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P20: Error: Uninitialized memory access: New
+ P20.85: Error: Uninitialized memory access: New
+  pghook.dll!0x50722: Error X90: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P21: Error: Uninitialized memory access: New
+ P21.73: Error: Uninitialized memory access: New
+  pghook.dll!0x51ef2: Error X77: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P22: Error: Uninitialized memory access: New
+ P22.94: Error: Uninitialized memory access: New
+  pghook.dll!0x5690d: Error X100: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P23: Error: Uninitialized memory access: New
+ P23.91: Error: Uninitialized memory access: New
+  pghook.dll!0x583ee: Error X97: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P24: Error: Uninitialized memory access: New
+ P24.86: Error: Uninitialized memory access: New
+  pghook.dll!0x59612: Error X91: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P25: Error: Uninitialized memory access: New
+ P25.41: Error: Uninitialized memory access: New
+  pghook.dll!0x5982d: Error X41: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P26: Error: Uninitialized memory access: New
+ P26.15: Error: Uninitialized memory access: New
+  pghook.dll!0x63e06: Error X15: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P27: Error: Uninitialized memory access: New
+ P27.17: Error: Uninitialized memory access: New
+  pghook.dll!0x63f6d: Error X17: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P28: Error: Uninitialized memory access: New
+ P28.18: Error: Uninitialized memory access: New
+  pghook.dll!0x645e5: Error X18: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P29: Error: Uninitialized memory access: New
+ P29.16: Error: Uninitialized memory access: New
+  pghook.dll!0x64726: Error X16: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P30: Error: Uninitialized memory access: New
+ P30.22: Error: Uninitialized memory access: New
+  pghook.dll!0x734e2: Error X22: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P31: Error: Uninitialized memory access: New
+ P31.78: Error: Uninitialized memory access: New
+  pghook.dll!0x835ae: Error X82: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P32: Error: Uninitialized memory access: New
+ P32.44: Error: Uninitialized memory access: New
+  pghook.dll!0x8d547: Error X44: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P33: Error: Uninitialized memory access: New
+ P33.5: Error: Uninitialized memory access: New
+  pghook.dll!0xb1a26: Error X5: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P34: Error: Uninitialized memory access: New
+ P34.6: Error: Uninitialized memory access: New
+  pghook.dll!0xe763: Error X6: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P35: Error: Uninitialized memory access: New
+ P35.103: Error: Uninitialized memory access: New
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vector(720): Error X109: Read: Function std::vector<unsigned int,class std::allocator<unsigned int> >::vector<unsigned int,class std::allocator<unsigned int> >(class std::initializer_list<unsigned int>,class std::allocator<unsigned int> const &): Module c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe
+
+P36: Error: Uninitialized memory access: New
+ P36.104: Error: Uninitialized memory access: New
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vector(746): Error X110: Read: Function std::vector<unsigned int,class std::allocator<unsigned int> >::vector<unsigned int,class std::allocator<unsigned int> >(class std::vector<unsigned int,class std::allocator<unsigned int> > const &): Module c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe
+
+P37: Error: Uninitialized partial memory access: New
+ P37.69: Error: Uninitialized partial memory access: New
+  pghook.dll!0x9b94a: Error X69: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+  pghook.dll!0x2aeee: Error X70: Allocation site: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P38: Error: Uninitialized partial memory access: New
+ P38.70: Error: Uninitialized partial memory access: New
+  pghook.dll!0x9ba17: Error X71: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+  pghook.dll!0x2aeee: Error X72: Allocation site: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+ P38.82: Error: Uninitialized partial memory access: New
+  pghook.dll!0x9ba17: Error X86: Read: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+  pghook.dll!0x2afdd: Error X87: Allocation site: Function cereal::detail::StaticObject<struct cereal::detail::Versions>::operator=(class cereal::detail::StaticObject<struct cereal::detail::Versions> const & __ptr64): Module c:\program files\avecto\privilege guard client\pghook.dll
+
+P39: Error: Uninitialized partial memory access: New
+ P39.165: Error: Uninitialized partial memory access: New
+  ucrtbased.dll!0xf805c: Error X172: Read: Function strnicoll_l: Module c:\windows\system32\ucrtbased.dll
+

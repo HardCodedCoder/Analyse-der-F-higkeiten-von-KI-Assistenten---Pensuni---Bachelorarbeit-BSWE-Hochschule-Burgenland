@@ -1,0 +1,41 @@
+
+=== Start: [2025/05/21 18:09:12] === 
+Analysis started...
+Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC7_B\TC7_B.inspxe 
+Analysis started for c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe (pid = 41040) 
+Loaded module: c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe, address range [0x7ff6ae420000-0x7ff6ae4e2fff] 
+Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe5e3a0000-0x7ffe5e772fff] 
+Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe5f250000-0x7ffe5f313fff] 
+Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe610f0000-0x7ffe61306fff] 
+Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ffe05a90000-0x7ffe05abffff] 
+Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ffe53fb0000-0x7ffe53fbefff] 
+Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ffde90c0000-0x7ffde91a0fff] 
+Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ffdadc90000-0x7ffdade93fff] 
+Loaded module: c:\program files\avecto\privilege guard client\pghook.dll, address range [0x7ffe5d970000-0x7ffe5dabafff] 
+Loaded module: c:\windows\system32\advapi32.dll, address range [0x7ffe5eff0000-0x7ffe5f0a0fff] 
+Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe5f320000-0x7ffe5f3c6fff] 
+Loaded module: c:\windows\system32\sechost.dll, address range [0x7ffe5f0e0000-0x7ffe5f187fff] 
+Loaded module: c:\windows\system32\bcrypt.dll, address range [0x7ffe5e820000-0x7ffe5e847fff] 
+Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe5eed0000-0x7ffe5efe3fff] 
+Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffe5cfc0000-0x7ffe5cfd7fff] 
+Process c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: C:\Users\z0041eeu\Desktop\Testumgebung\build\Debug\BachelorThesisDemo.exe 
+Unloaded module: C:\WINDOWS\System32\KERNELBASE.dll 
+Unloaded module: C:\WINDOWS\System32\KERNEL32.DLL 
+Unloaded module: C:\WINDOWS\SYSTEM32\ntdll.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140_1D.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\MSVCP140D.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\ucrtbased.dll 
+Unloaded module: C:\Program Files\Avecto\Privilege Guard Client\PGHook.dll 
+Unloaded module: C:\WINDOWS\System32\ADVAPI32.dll 
+Unloaded module: C:\WINDOWS\System32\msvcrt.dll 
+Unloaded module: C:\WINDOWS\System32\sechost.dll 
+Unloaded module: C:\WINDOWS\System32\bcrypt.dll 
+Unloaded module: C:\WINDOWS\System32\RPCRT4.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\kernel.appcore.dll 
+Completed analysis for c:\users\z0041eeu\desktop\testumgebung\build\debug\bachelorthesisdemo.exe 
+Application exit code: 0 
+Result file: C:\Users\z0041eeu\Desktop\Testumgebung\inspector_results\TC7_B\TC7_B.inspxe 
+Analysis completed
+=== End: [2025/05/21 18:09:52] === 
