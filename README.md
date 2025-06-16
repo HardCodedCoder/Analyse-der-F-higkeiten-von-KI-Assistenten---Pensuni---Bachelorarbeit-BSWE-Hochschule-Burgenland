@@ -59,4 +59,3 @@ Die Bachelorarbeit selbst beschreibt im Detail:
 ## Lizenz
 
 Das Projekt steht nur zu Studienzwecken zur Verfügung. Keine kommerzielle Nutzung.
-# Analyse-der-F-higkeiten-von-KI-Assistenten---Pensuni---Bachelorarbeit-BSWE-Hochschule-Burgenland
