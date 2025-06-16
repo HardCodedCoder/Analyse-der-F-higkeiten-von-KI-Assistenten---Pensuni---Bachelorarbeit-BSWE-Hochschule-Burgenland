@@ -1,0 +1,87 @@
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:21:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+21 | strcpy(this->name, name);
+   | ^~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:21:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+21 | strcpy(this->name, name);
+   | ^~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:21:13: warning: 'strcpy' is deprecated: This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [clang-diagnostic-deprecated-declarations]
+21 | strcpy(this->name, name);
+   | ^~~~~~
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h:130:1: note: 'strcpy' has been explicitly marked deprecated here
+130 | __DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1(
+    | ^
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h:835:5: note: expanded from macro '__DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1'
+835 | __DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1_EX(_ReturnType, _ReturnPolicy, _DeclSpec, _FuncName, _FuncName##_s, _DstType, _SalAttributeDst, _DstType, _Dst, _TType1, _TArg1)
+    | ^
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h:1894:17: note: expanded from macro '__DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1_EX'
+1894 | _CRT_INSECURE_DEPRECATE(_SecureFuncName) _DeclSpec _ReturnType __cdecl _FuncName(_SalAttributeDst _DstType* _Dst, _TType1 _TArg1);
+     | ^
+
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vcruntime.h:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+368 | #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(
+    | ^
+
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vcruntime.h:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:39:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+39 | strcpy(this->name, badClassObject.name);
+   | ^~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:39:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+39 | strcpy(this->name, badClassObject.name);
+   | ^~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:39:9: warning: 'strcpy' is deprecated: This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [clang-diagnostic-deprecated-declarations]
+39 | strcpy(this->name, badClassObject.name);
+   | ^~~~~~
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h:130:1: note: 'strcpy' has been explicitly marked deprecated here
+130 | __DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1(
+    | ^
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h:835:5: note: expanded from macro '__DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1'
+835 | __DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1_EX(_ReturnType, _ReturnPolicy, _DeclSpec, _FuncName, _FuncName##_s, _DstType, _SalAttributeDst, _DstType, _Dst, _TType1, _TArg1)
+    | ^
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h:1894:17: note: expanded from macro '__DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1_EX'
+1894 | _CRT_INSECURE_DEPRECATE(_SecureFuncName) _DeclSpec _ReturnType __cdecl _FuncName(_SalAttributeDst _DstType* _Dst, _TType1 _TArg1);
+     | ^
+
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vcruntime.h:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+368 | #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(
+    | ^
+
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vcruntime.h:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:46:31: warning: Use of memory after it is freed [clang-analyzer-cplusplus.NewDelete]
+46 | this->name = new char[strlen(badClassObject.name) + 1];
+   |                               ^~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:42:5: note: Assuming badClassObject == *this
+42 | BadClass& operator=(const BadClass& badClassObject)
+   | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:45:9: note: Memory is released
+45 | delete [] this->name;
+   | ^~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:46:31: note: Use of memory after it is freed
+46 | this->name = new char[strlen(badClassObject.name) + 1];
+   | 
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:47:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+47 | strcpy(this->name, badClassObject.name); /* FLAW - if this is a self-assignment */
+   | ^~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:47:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+47 | strcpy(this->name, badClassObject.name); /* FLAW - if this is a self-assignment */
+   | ^~~~~~

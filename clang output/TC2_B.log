@@ -1,0 +1,31 @@
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:76:5: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+76 |     strcpy(buf, str);   // potential FLAW depending on the size of str
+   |     ^~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:76:5: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+76 |     strcpy(buf, str);   // potential FLAW depending on the size of str
+   |     ^~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:76:5: warning: 'strcpy' is deprecated: This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [clang-diagnostic-deprecated-declarations]
+76 |     strcpy(buf, str);   // potential FLAW depending on the size of str
+   |     ^
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h:130:1: note: 'strcpy' has been explicitly marked deprecated here
+130 | __DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1 (
+    | ^
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h:835:5: note: expanded from macro '__DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1'
+835 |     __DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1_EX(_ReturnType, _ReturnPolicy, _DeclSpec, _FuncName, _FuncName##_s, _DstType, _SalAttributeDst, _DstType, _Dst, _TType1, _TArg1)
+    |     ^
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h:1894:17: note: expanded from macro '__DEFINE_CPP_OVERLOAD_STANDARD_FUNC_0_1_EX'
+1894 | _CRT_INSECURE_DEPRECATE(_SecureFuncName) _DeclSpec _ReturnType __cdecl _FuncName(_SalAttributeDst _DstType* _Dst, _TType1 _TArg1);
+     |                 ^
+
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vcruntime.h:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+368 | #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT( \
+    |                                                       ^
+
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vcruntime.h:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+    |                                              ^

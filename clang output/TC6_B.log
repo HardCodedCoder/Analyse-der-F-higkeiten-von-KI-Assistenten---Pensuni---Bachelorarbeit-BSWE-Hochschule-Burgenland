@@ -1,0 +1,51 @@
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:120:9: warning: Use of memory after it is freed [clang-analyzer-unix.Malloc]
+120 | TEST_OUTPUT(data);
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\../helper/test_output.h:11:5: note: expanded from macro 'TEST_OUTPUT'
+11 | wss << x;
+   | ^~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:108:9: note: GLOBAL_CONST_FIVE is equal to 5
+108 | if (GLOBAL_CONST_FIVE == 5)
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:4:27: note: expanded from macro 'GLOBAL_CONST_FIVE'
+4 | #define GLOBAL_CONST_FIVE 5
+  | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:108:5: note: Taking true branch
+108 | if (GLOBAL_CONST_FIVE == 5)
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:110:26: note: Memory is allocated
+110 | data = (wchar_t *)malloc(100 * sizeof(wchar_t));
+    | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:111:13: note: Assuming 'data' is not equal to NULL
+111 | if (data == NULL) { exit(-1); }
+    | ^~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:111:9: note: Taking false branch
+111 | if (data == NULL) { exit(-1); }
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:115:9: note: Memory is released
+115 | free(data);
+    | ^~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:117:9: note: GLOBAL_CONST_FIVE is equal to 5
+117 | if (GLOBAL_CONST_FIVE == 5)
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:4:27: note: expanded from macro 'GLOBAL_CONST_FIVE'
+4 | #define GLOBAL_CONST_FIVE 5
+  | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:117:5: note: Taking true branch
+117 | if (GLOBAL_CONST_FIVE == 5)
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:120:9: note: Use of memory after it is freed
+120 | TEST_OUTPUT(data);
+    | ^

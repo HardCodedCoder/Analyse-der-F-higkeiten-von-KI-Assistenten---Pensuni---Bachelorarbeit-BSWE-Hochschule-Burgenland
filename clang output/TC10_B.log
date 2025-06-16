@@ -1,0 +1,43 @@
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:284:9: note: Assuming the condition is true
+284 | if (globalReturnsTrueOrFalse())
+    | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:284:5: note: Taking true branch
+284 | if (globalReturnsTrueOrFalse())
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:286:16: note: Memory is allocated
+286 | data = new TwoIntsClass;
+    |        ^~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:290:9: note: Memory is released
+290 | delete data;
+    |        ^~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:294:16: note: Memory is allocated
+294 | data = new TwoIntsClass;
+    |        ^~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:299:9: note: Assuming the condition is false
+299 | if (globalReturnsTrueOrFalse())
+    | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:299:5: note: Taking false branch
+299 | if (globalReturnsTrueOrFalse())
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:299:9: note: Assuming the condition is true
+299 | if (globalReturnsTrueOrFalse())
+    | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:299:5: note: Taking true branch
+299 | if (globalReturnsTrueOrFalse())
+    | ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:302:21: note: Use of memory after it is freed
+302 | TEST_OUTPUT(data->intOne);
+    |                     ^
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\use_after_free\use_after_tests.cpp:312:1: warning: Potential leak of memory pointed to by 'data' [clang-analyzer-cplusplus.NewDeleteLeaks]
+312 | }
+    | ^

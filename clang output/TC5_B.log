@@ -1,0 +1,71 @@
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:219:2: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+219 | data = dataBadBuffer;
+    | ^~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:219:2: note: Value stored to 'data' is never read
+219 | data = dataBadBuffer;
+    | ^~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:224:29: warning: Storage provided to placement new is only 4 bytes, whereas the allocated type requires 8 bytes [clang-analyzer-cplusplus.PlacementNew]
+224 | TwoIntsClass * classTwo = new (data) TwoIntsClass;
+    |                             ^~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:215:2: note: 'data' declared without an initial value
+215 | char * data;
+    | ^~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:216:2: note: 'dataRef' initialized here
+216 | char *& dataRef = data;
+    | ^~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:217:2: note: 'dataBadBuffer' initialized here
+217 | char dataBadBuffer[sizeof(OneIntClass)];
+    | ^~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:219:2: note: Value assigned to 'data'
+219 | data = dataBadBuffer;
+    | ^~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:221:3: note: 'data' initialized here
+221 | char * data = dataRef;
+    | ^~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:224:29: note: Storage provided to placement new is only 4 bytes, whereas the allocated type requires 8 bytes
+224 | TwoIntsClass * classTwo = new (data) TwoIntsClass;
+    |                             ^~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:242:2: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+242 | data = dataGoodBuffer;
+    | ^~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:242:2: note: Value stored to 'data' is never read
+242 | data = dataGoodBuffer;
+    | ^~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:246:29: warning: Storage type is aligned to 1 bytes but allocated type is aligned to 4 bytes [clang-analyzer-cplusplus.PlacementNew]
+246 | TwoIntsClass * classTwo = new (data) TwoIntsClass;
+    |                             ^~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:238:2: note: 'data' declared without an initial value
+238 | char * data;
+    | ^~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:239:2: note: 'dataRef' initialized here
+239 | char *& dataRef = data;
+    | ^~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:240:2: note: 'dataGoodBuffer' initialized here
+240 | char dataGoodBuffer[sizeof(TwoIntsClass)];
+    | ^~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:242:2: note: Value assigned to 'data'
+242 | data = dataGoodBuffer;
+    | ^~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:244:3: note: 'data' initialized here
+244 | char * data = dataRef;
+    | ^~~~~~~~~~
+
+C:\Users\z0041eeu\Desktop\Testumgebung\src\buffer_overflow\buffer_tests.cpp:246:29: note: Storage type is aligned to 1 bytes but allocated type is aligned to 4 bytes
+246 | TwoIntsClass * classTwo = new (data) TwoIntsClass;
+    |                             ^~~~~~~~~~~~~~~~~~~~~~
